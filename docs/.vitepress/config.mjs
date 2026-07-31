@@ -37,9 +37,6 @@ export default defineConfig({
     
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/getting-started/introduction' },
-      { text: 'Research Papers', link: '/research-papers/' },
-      { text: 'Academic Writing', link: '/academic-writing/literature-review-guide' },
       { text: 'Research Tools', link: '/research-tools/reference-managers' },
       { text: 'Templates', link: '/templates/research-proposal-template' },
     ],
@@ -52,62 +49,13 @@ export default defineConfig({
     },
 
     sidebar: {
-      '/getting-started/': [
-        {
-          text: '🚀 Welcome & Overview',
-          items: [
-            { text: 'Introduction', link: '/getting-started/introduction' },
-            { text: 'How to Contribute Docs', link: '/getting-started/how-to-contribute' },
-            { text: 'Publishing Guidelines', link: '/getting-started/publishing-guide' },
-          ]
-        }
-      ],
-      '/research-papers/': [
-        {
-          text: '📄 Research Digest & Papers',
-          items: [
-            { text: 'Overview', link: '/research-papers/' },
-            { 
-              text: '🤖 AI & Machine Learning',
-              collapsed: false,
-              items: [
-                { text: 'Transformer Architectures', link: '/research-papers/ai-machine-learning/transformer-models-overview' },
-                { text: 'Deep Learning Optimization', link: '/research-papers/ai-machine-learning/deep-learning-optimization' },
-              ]
-            },
-            { 
-              text: '📊 Data Science & Analytics',
-              collapsed: false,
-              items: [
-                { text: 'Automated Data Pipelines', link: '/research-papers/data-science/data-cleaning-pipeline' },
-              ]
-            },
-            {
-              text: '🧬 Biotechnology & Bio-AI',
-              collapsed: false,
-              items: [
-                { text: 'Genomic Sequence Analysis', link: '/research-papers/biotechnology/genomic-analysis-intro' },
-              ]
-            }
-          ]
-        }
-      ],
-      '/academic-writing/': [
-        {
-          text: '📚 Academic Writing & Methodology',
-          items: [
-            { text: 'Literature Review Guide', link: '/academic-writing/literature-review-guide' },
-            { text: 'Citation Styles (APA, IEEE, BibTeX)', link: '/academic-writing/citation-styles-apa-ieee-bibtex' },
-            { text: 'LaTeX Paper Writing Masterclass', link: '/academic-writing/latex-research-paper-template' },
-          ]
-        }
-      ],
       '/research-tools/': [
         {
           text: '🛠️ Essential Research Tools',
           items: [
             { text: 'Reference Managers (Zotero & Mendeley)', link: '/research-tools/reference-managers' },
             { text: 'Open Access Databases & Datasets', link: '/research-tools/open-access-research-databases' },
+            { text: 'Transcribing Verbatim with Gemini', link: '/research-tools/transcribing-verbatim-with-gemini' },
           ]
         }
       ],

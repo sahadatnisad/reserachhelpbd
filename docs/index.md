@@ -7,11 +7,11 @@ hero:
   tagline: "Empowering students, academics, and researchers worldwide with structured docs, research papers, guides, and writing tools."
   actions:
     - theme: brand
-      text: Explore Research Docs 🚀
-      link: /getting-started/introduction
+      text: Research Tools 🛠️
+      link: /research-tools/reference-managers
     - theme: alt
-      text: Research Papers Digest 📄
-      link: /research-papers/
+      text: Research Templates 📋
+      link: /templates/research-proposal-template
     - theme: alt
       text: GitHub Repository ⭐
       link: https://github.com/sahadatnisad/reserachhelpbd
@@ -47,10 +47,8 @@ features:
 
 | Category | Description | Direct Link |
 | :--- | :--- | :--- |
-| 🚀 **Getting Started** | Vision, publishing guidelines, contribution guide | [Read Guide](/getting-started/introduction) |
-| 🤖 **AI & Machine Learning** | Research digests on Transformers, Optimization | [View Digests](/research-papers/ai-machine-learning/transformer-models-overview) |
-| 📚 **Academic Writing** | Literature reviews, APA/IEEE/BibTeX citation guide | [Learn Writing](/academic-writing/literature-review-guide) |
 | 🛠️ **Research Tools** | Zotero, Mendeley, arXiv, Open Access Databases | [Explore Tools](/research-tools/reference-managers) |
+| 🎙️ **Audio Transcription** | Transcribe audio verbatim with Gemini API | [Read Guide](/research-tools/transcribing-verbatim-with-gemini) |
 | 📋 **Templates** | Research proposal & paper summary templates | [Get Templates](/templates/research-proposal-template) |
 
 ***
