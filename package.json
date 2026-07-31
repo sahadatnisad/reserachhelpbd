@@ -1,6 +1,6 @@
 {
   "name": "reserachhelpbd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Global Open Access Documentation & Research Repository - Research Help BD",
   "type": "module",
   "main": "index.js",

@@ -1,47 +1,34 @@
-# 🤝 How to Contribute Docs & Research
+# 🤝 How to Contribute
 
-We welcome contributions from students, researchers, professors, and open-source enthusiasts worldwide! You can contribute research summaries, methodology guides, paper digests, or open datasets.
+We welcome contributions from researchers, students, educators, and software engineers worldwide!
+
+## 📌 Ways to Contribute
+
+- **Add Paper Summaries**: Write digests for impactful research papers in your field.
+- **Improve Writing Guides**: Share tips on LaTeX, grant writing, or citation management.
+- **Submit Templates**: Share formatted LaTeX or Markdown templates for research proposals.
+- **Fix Errors**: Correct typos, update broken links, or improve mathematical formulas.
 
 ---
 
-## 🛠️ Step-by-Step Contribution Workflow
+## 🛠️ Contribution Workflow
 
-### Step 1: Fork or Clone the Repository
-Clone your repository locally to make edits:
-```bash
-git clone https://github.com/sahadatnisad/reserachhelpbd.git
-cd reserachhelpbd
-```
-
-### Step 2: Install Dependencies
-Ensure you have Node.js (v18+) installed, then run:
-```bash
-npm install
-```
-
-### Step 3: Run the Local Preview Server
-Start the development server with live reload:
-```bash
-npm run docs:dev
-```
-Open `http://localhost:5173/reserachhelpbd/` in your browser to preview changes in real time.
-
-### Step 4: Add Your Markdown File
-Create a new `.md` file in the appropriate folder under `docs/`. For example:
-- Adding a paper digest on AI: `docs/research-papers/ai-machine-learning/my-new-paper.md`
-- Adding a writing guide: `docs/academic-writing/my-writing-guide.md`
-
-### Step 5: Register the File in Sidebar Navigation
-Open `docs/.vitepress/config.mjs` and add your file link to the `sidebar` array so it shows up in the left navigation menu!
-
-```javascript
-{ text: 'My New Paper Title', link: '/research-papers/ai-machine-learning/my-new-paper' }
-```
-
-### Step 6: Commit and Push
-```bash
-git add .
-git commit -m "feat: add research digest on My New Paper"
-git push origin main
-```
-The automated GitHub Actions workflow will automatically build and publish your update live worldwide! 🚀
+1. **Fork the Repository**: Visit [GitHub Repository](https://github.com/sahadatnisad/reserachhelpbd) and click **Fork**.
+2. **Clone your fork**:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/reserachhelpbd.git
+   cd reserachhelpbd
+   ```
+3. **Create a new branch**:
+   ```bash
+   git checkout -b docs/add-my-paper-digest
+   ```
+4. **Add your Markdown file**: Add your `.md` file under the appropriate folder inside `docs/`.
+5. **Update `.vitepress/config.mjs`**: Add your page link to the sidebar.
+6. **Commit & Push**:
+   ```bash
+   git add .
+   git commit -m "docs: add paper digest on transformer models"
+   git push origin docs/add-my-paper-digest
+   ```
+7. **Open a Pull Request**: Create a PR on the main repository.

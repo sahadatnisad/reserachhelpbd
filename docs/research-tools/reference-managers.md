@@ -1,24 +1,14 @@
-# 🛠️ Reference Managers Guide: Zotero & Mendeley
+# 🛠️ Reference Managers (Zotero & Mendeley)
 
-Managing hundreds of research PDFs, generating citations, and exporting `.bib` files is easy with open-source reference managers.
+Reference managers simplify collecting, organizing, citing, and sharing research papers.
 
----
+## 🟢 Zotero
 
-## 🐘 Zotero Setup & Recommended Plugins
+- **Open Source**: Free and open-source citation manager.
+- **Browser Extension**: One-click saving of paper PDFs and metadata from arXiv, IEEE Xplore, Google Scholar.
+- **Word/LaTeX Integration**: Automatic citation insertion into MS Word, Google Docs, and Overleaf.
 
-[Zotero](https://www.zotero.org/) is a free, open-source reference manager.
+## 🔵 Mendeley
 
-### Key Plugins for Researchers
-1. **Better BibTeX for Zotero**: Automatically generates clean citation keys (e.g. `vaswani2017attention`) and auto-syncs `.bib` files to Overleaf or VS Code.
-2. **Zotero Connector**: Browser extension (Chrome/Firefox) to save papers, preprints, and web pages with 1 click.
-3. **ZotFile**: Automatically renames PDF files according to customized rules (e.g., `Author_Year_Title.pdf`).
-
----
-
-## 🍊 Mendeley Setup
-
-[Mendeley](https://www.mendeley.com/) provides desktop sync and PDF annotation tools with cloud backup.
-
-::: tip 💡 Pro Tip
-Use Zotero + Better BibTeX for LaTeX workflow, and Mendeley Desktop for MS Word manuscript drafts.
-:::
+- **PDF Annotation**: Built-in PDF reader with highlighting and sticky notes.
+- **Cloud Sync**: Sync your library across desktop, web, and mobile devices.

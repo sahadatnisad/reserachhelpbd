@@ -1,56 +1,29 @@
-# 🪶 LaTeX Research Paper Template Masterclass
+# 📐 LaTeX Paper Writing Masterclass
 
-LaTeX provides unmatched precision for formatting equations, tables, figures, and bibliographies in conference papers and journal submissions.
-
----
-
-## 📄 Complete IEEE / Overleaf Article Starter Template
-
-Save this as `main.tex` in Overleaf or your local TeX distribution:
+LaTeX provides unmatched typesetting quality for scientific formulas and figures.
 
 ```latex
 \documentclass[conference]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
-\usepackage{algorithmic}
 \usepackage{graphicx}
-\usepackage{textcomp}
-\usepackage{xcolor}
+
+\title{Your Research Paper Title}
+\author{\IEEEauthorblockN{Author Name}
+\IEEEauthorblockA{\textit{Department of Computer Science} \\
+\textit{University Name}\\
+City, Country \\
+email@domain.com}}
 
 \begin{document}
-
-\title{Novel Deep Learning Approaches for Open Research Documentation}
-
-\author{\IEEEauthorblockN{Sahadat Nisad}
-\IEEEauthorblockA{\textit{Research Help BD} \\
-Dhaka, Bangladesh \\
-contact@researchhelpbd.org}
-}
-
 \maketitle
 
 \begin{abstract}
-This paper presents a modern framework for publishing open-access research documentation using static site generators and markdown automation...
+Your abstract goes here...
 \end{abstract}
 
-\begin{IEEEkeywords}
-Open Access, Documentation, LaTeX, Machine Learning, GitHub Pages
-\end{IEEEkeywords}
-
 \section{Introduction}
-Recent developments in academic publishing require faster dissemination of research notes...
-
-\section{Methodology}
-The loss function is defined as:
-\begin{equation}
-\mathcal{L} = \frac{1}{N}\sum_{i=1}^{N} (y_i - \hat{y}_i)^2
-\end{equation}
-
-\section{Conclusion}
-Our open-access framework reduces publication latency to zero.
-
-\bibliographystyle{IEEEtran}
-\bibliography{references}
+Introduction section content...
 
 \end{document}
 ```

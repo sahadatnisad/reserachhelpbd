@@ -1,24 +1,10 @@
-# 🌐 Open Access Research Databases & Datasets
+# 🌐 Open Access Databases & Datasets
 
-Here is a curated directory of open-access research repositories, databases, and scientific dataset sources accessible worldwide.
+Discover free, open-access academic literature and open datasets.
 
----
-
-## 📄 Open Access Paper Repositories
-
-| Repository | Focus Area | Access Link |
+| Database | Description | Link |
 | :--- | :--- | :--- |
-| **arXiv.org** | Physics, Mathematics, CS, AI, Quantitative Biology | [arXiv.org](https://arxiv.org/) |
-| **Google Scholar** | Global Multidisciplinary Search Engine | [Google Scholar](https://scholar.google.com/) |
-| **PubMed Central** | Biomedical and Life Sciences Literature | [PMC](https://www.ncbi.nlm.nih.gov/pmc/) |
-| **DOAJ** | Directory of Open Access Journals | [DOAJ](https://doaj.org/) |
-| **Semantic Scholar** | AI-Powered Scientific Literature Search | [Semantic Scholar](https://www.semanticscholar.org/) |
-
----
-
-## 📊 Open Datasets for Experiments
-
-- **Kaggle Datasets**: [kaggle.com/datasets](https://www.kaggle.com/datasets)
-- **Hugging Face Datasets**: [huggingface.co/datasets](https://huggingface.co/datasets)
-- **Zenodo (CERN)**: Open research data repository [zenodo.org](https://zenodo.org/)
-- **UC Irvine ML Repository**: Benchmark datasets [archive.ics.uci.edu](https://archive.ics.uci.edu/)
+| **arXiv** | Open-access archive for Computer Science, Math, Physics | [arxiv.org](https://arxiv.org) |
+| **PubMed Central** | Free full-text archive of biomedical literature | [ncbi.nlm.nih.gov/pmc](https://www.ncbi.nlm.nih.gov/pmc/) |
+| **Kaggle Datasets** | Machine learning and statistics datasets | [kaggle.com/datasets](https://www.kaggle.com/datasets) |
+| **Papers With Code** | Research papers paired with official open-source code | [paperswithcode.com](https://paperswithcode.com) |

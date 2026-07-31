@@ -1,33 +1,29 @@
-# 📋 Paper Reading & Analysis Summary Template
+# 📝 Paper Summary & Notes Template
 
-Use this template when reading and summarizing papers for literature reviews or reading groups.
-
----
+Use this Markdown template when taking literature study notes on academic papers.
 
 ```markdown
-# Paper Summary: [Paper Title]
+# 📄 [Paper Title]
 
-**Authors**: [Author Names]  
-**Venue & Year**: [e.g. NeurIPS 2025 / IEEE TPAMI]  
-**Link**: [arXiv / DOI link]  
+- **Authors**: Author 1, Author 2
+- **Venue / Year**: NeurIPS 2024 / IEEE TPAMI 2025
+- **DOI / Link**: [Link](https://arxiv.org)
 
 ---
 
-## 🎯 1-Sentence Takeaway
-[What is the single most important contribution of this paper?]
+## 🎯 1-Sentence Summary
 
-## ❓ Problem Addressed
-[What issue does this paper solve that previous methods failed at?]
 
-## 💡 Key Innovation & Method
-- Innovation 1: ...
-- Innovation 2: ...
+## 💡 Main Contributions
+1. 
+2. 
+
+## 🛠️ Method & Architecture
+
 
 ## 📊 Experimental Results
-- Benchmark Dataset: [e.g. ImageNet / SQuAD]
-- Baseline Comparison: Outperforms [Baseline Model] by +X.X% accuracy.
 
-## ⚠️ Limitations & Critique
-- What assumptions might fail in real-world deployment?
-- What future work did the authors leave unaddressed?
+
+## ⚠️ Limitations & Future Work
+
 ```
