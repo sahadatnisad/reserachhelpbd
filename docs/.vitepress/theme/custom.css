@@ -1,0 +1,82 @@
+:root {
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #60a5fa;
+  --vp-c-brand-soft: rgba(37, 99, 235, 0.14);
+  
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #2563eb 0%, #7c3aed 50%, #ec4899 100%);
+  
+  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --vp-font-family-mono: 'Fira Code', monospace;
+}
+
+.dark {
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
+  
+  --vp-home-hero-name-background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #f472b6 100%);
+}
+
+/* Custom Hero styling */
+.VPContent {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+.VPHero .name {
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+.VPHero .tagline {
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+}
+
+/* Glassmorphism Feature Cards */
+.VPFeature {
+  background: var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 12px !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-1) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px -10px rgba(37, 99, 235, 0.2);
+}
+
+/* Custom Callout Boxes */
+.custom-block {
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 20px 0;
+}
+
+/* MathJax / LaTeX formula styling */
+.MathJax {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+/* Code block tweaks */
+div[class*='language-'] {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Badge styling */
+.badge-tag {
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  margin-right: 6px;
+}

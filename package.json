@@ -1,0 +1,32 @@
+{
+  "name": "reserachhelpbd",
+  "version": "1.0.0",
+  "description": "Global Open Access Documentation & Research Repository - Research Help BD",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahadatnisad/reserachhelpbd.git"
+  },
+  "keywords": [
+    "research",
+    "documentation",
+    "academic",
+    "papers",
+    "bangladesh",
+    "open-access",
+    "vitepress"
+  ],
+  "author": "Sahadat Nisad",
+  "license": "MIT",
+  "devDependencies": {
+    "katex": "^0.18.1",
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.6.4"
+  }
+}
